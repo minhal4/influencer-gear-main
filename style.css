@@ -1,0 +1,202 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.button{
+    margin-left:500px;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+.button h5{
+    margin-right: 30px;
+    font-size: 17px;
+}
+header h3{
+    font-size: 24px;
+}
+.fa-solid  {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/* camera caption and stuff */
+/* camera caption and stuff */
+/* camera caption and stuff */
+/* camera caption and stuff */
+
+.caption h2{
+    font-size: 55px;
+   
+}
+.caption{
+    margin-left: 140px;
+    
+}
+
+.camera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.camera , .image{
+    border-radius:50%;
+box-shadow: 3px 3px 3px #e78267;
+margin-right: 120px;
+}
+.camera button{
+    margin-top: 10px;
+    background-color: #E02C6D;
+    border-radius: 40%;
+    width: 196px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button h5{
+    margin-right: 30px;
+    font-size: 16px;
+    color: white;
+    padding-left:8px ;
+
+}
+.logo{
+display: flex; 
+
+height: 110px;   
+justify-content: center;
+align-items: center;
+margin-top: 120px;
+border: 1px solid darkslategrey;
+box-shadow: 10px 10px 8px 10px #888888;
+
+}
+.logo img{
+    width: 100px;
+    height: auto;
+    margin: 30px;
+
+}
+
+
+/* popular now */
+/* popular now */
+/* popular now */
+.popular-collection{
+    margin-top: 120px;
+    height: 1500px;
+    width: auto;
+}
+.popular-collection h1{
+       font-size: 28px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 40px;
+       
+}
+.pro-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    cursor: pointer;
+    
+    row-gap: 50px;
+    
+    
+}
+
+.pro-img .product{
+    box-shadow: 10px 10px 8px 10px #888888;;
+    padding: 20px;
+}
+.rating{
+    display: flex;
+    
+
+}
+.fa-solid{
+    color: #FB8200;
+    margin-right: 1px;
+}
+.narration{
+    color: #787885;
+
+}
+.details h4{
+    font-size: 28px;
+}
+.details p{
+    margin-top: 0px;
+
+}
+.see{
+    margin-top: 100px;
+    color: #E02C6D;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 90px;
+    cursor: grab;
+    align-items: baseline;
+}
+.see h3{
+    margin-right: 15px;
+}
+.see .fa-solid{
+    color: #E02C6D;
+}
+
+/* course */
+/* course */
+/* course */
+/* course */
+.course{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 300px;
+   
+    
+}
+.course-det h2{
+    margin-left: 20px;
+}
+.course-det p{
+    margin-left:20px ;
+    color: #787885;
+}
+.boxx{
+    border: 1px solid #E02C6D;
+    margin-left: 30px;
+    width: 155px;
+    height: 44px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* footer */
+/* footer */
+/* footer */
+footer{
+    width: auto;
+    height: 240px;
+    background-color: #002D62;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    align-items: center;
+    
+}
+
+
